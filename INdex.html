@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="style1.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>New Shopping Page</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo"><img src="logo.jpeg" alt="Brand Logo"></div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products, brands, and more...">
+        </div>
+        <div class="nav-icons" style=" margin-top: 15px;">
+            <a href="#">
+                <p style="color: white; font-weight: bold; font-size: 20px;">Sign In</p>
+            </a>
+            <a href="#">
+                <p style="color: white; font-weight: bold;font-size: 20px;">My Cart</p>
+            </a>
+            <a href="#">
+                <p style="color: white; font-weight: bold;font-size: 20px;">Sell on Our Platform</p>
+            </a>
+        </div>
+    </header>
+
+    <nav class="categories">
+        <!-- Wholesale Deals -->
+        <div class="category">
+            <img src="https://images.meesho.com/images/products/87662753/i60he_400.webp" alt="Wholesale Deals">
+            <p>Wholesale</p>
+            <ul class="options">
+                <li>Bulk Discounts</li>
+                <li>Buy in Kilos</li>
+                <li>Best Price Offers</li>
+                <li>Wholesale FAQs</li>
+            </ul>
+        </div>
+
+        <!-- Smartphones -->
+        <div class="category">
+            <img src="https://images.meesho.com/images/products/475827825/22k3d_400.webp" alt="Smartphones">
+            <p>Smartphones</p>
+            <ul class="options">
+                <li>Latest Models</li>
+                <li>Top Brands</li>
+                <li>Best Deals</li>
+                <li>Compare Prices</li>
+            </ul>
+        </div>
+
+        <!-- Fashion -->
+        <div class="category">
+            <img src="https://images.meesho.com/images/products/472243631/lgupd_400.webp" alt="Fashion">
+            <p>Fashion</p>
+            <ul class="options">
+                <li>Trending Styles</li>
+                <li>Men & Women</li>
+                <li>Top Offers</li>
+                <li>New Arrivals</li>
+            </ul>
+        </div>
+
+        <!-- Electronics -->
+        <div class="category">
+            <img src="https://images.meesho.com/images/products/415771164/rgnvz_400.webp" alt="Electronics">
+            <p>Electronics</p>
+            <ul class="options">
+                <li>Latest Gadgets</li>
+                <li>Best Deals</li>
+                <li>Top Brands</li>
+                <li>Exclusive Discounts</li>
+            </ul>
+        </div>
+
+        <!-- Home & Furniture -->
+        <div class="category">
+            <img src="https://images.meesho.com/images/products/4898209/1_400.webp" alt="Home & Furniture">
+            <p>Home & Furniture</p>
+            <ul class="options">
+                <li>Furniture Deals</li>
+                <li>Home Decor</li>
+                <li>Essentials</li>
+                <li>Best Prices</li>
+            </ul>
+        </div>
+
+        <!-- Appliances -->
+        <div class="category">
+            <img src="https://images.meesho.com/images/products/516902624/a30ha_400.webp" alt="Appliances">
+            <p>Appliances</p>
+            <ul class="options">
+                <li>Kitchen Essentials</li>
+                <li>Electronics</li>
+                <li>Best Deals</li>
+                <li>Latest Models</li>
+            </ul>
+        </div>
+
+        <!-- Travel & Flights -->
+        <div class="category">
+            <img src="https://images.meesho.com/images/products/129036403/jeq60_400.webp" alt="Travel & Flights">
+            <p>Travel & Flights</p>
+            <ul class="options">
+                <li>Book Flights</li>
+                <li>Hotel Deals</li>
+                <li>Travel Offers</li>
+                <li>Holiday Packages</li>
+            </ul>
+        </div>
+
+        <!-- Kids & Toys -->
+        <div class="category">
+            <img src="https://images.meesho.com/images/products/460586065/mdnaz_400.webp" alt="Kids & Toys">
+            <p>Kids & Toys</p>
+            <ul class="options">
+                <li>Best Toys</li>
+                <li>Educational Games</li>
+                <li>Discounts</li>
+                <li>New Arrivals</li>
+            </ul>
+        </div>
+
+        <!-- Two-Wheelers -->
+        <div class="category">
+            <img src="https://images.meesho.com/images/products/426497753/lrq59_400.webp" alt="Two-Wheelers">
+            <p>Two-Wheelers</p>
+            <ul class="options">
+                <li>New Models</li>
+                <li>Electric Vehicles</li>
+                <li>Best Deals</li>
+                <li>Compare Prices</li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- //ranjanapart -->
+
+    <!-- Carousel Container -->
+    <div class="carousel-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></button>
+            </div>
+
+            <!-- Carousel Items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p1-vanheusen-allensolly-min50-06032025.jpg"
+                        alt="Slide 1">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p2-uspa-snitch-min50-06032025.jpg"
+                        alt="Slide 2">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p3-puma-performax-min50-06032025.jpg"
+                        alt="Slide 3">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p4-crocs-uspoloassn-min50-06032025.jpg"
+                        alt="Slide 4">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p5-brookbrothers-andamen-min30-06032025.jpg"
+                        alt="Slide 5">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p6-voyage-vincentchase-min60-06032025.jpg"
+                        alt="Slide 6">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p7-yousta-under399-06032025.jpg"
+                        alt="Slide 7">
+                </div>
+            </div>
+
+            <!-- Previous & Next Buttons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="offers-container">
+        <div id="offersCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Offers Carousel Items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/1440x128-%20UHP%20web%20RRL_SBI.jpg"
+                        class="d-block w-100 offer-img" alt="Offer 1">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-05042024-bankoffers-Z1-5instant-prepaid1.jpg"
+                        class="d-block w-100 offer-img" alt="Offer 2">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/1440x128150noctacopy2(1).jpg"
+                        class="d-block w-100 offer-img" alt="Offer 3">
+                </div>
+            </div>
+
+            <!-- Previous & Next Buttons for Offers -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#offersCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#offersCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Carousel Container -->
+    <h1 class="text-center">THE CRUST OF STYLES</h1>
+    <div class="carousel-container">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></button>
+            </div>
+
+            <!-- Carousel Items -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p1-vanheusen-allensolly-min50-06032025.jpg"
+                        alt="Slide 1">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p2-uspa-snitch-min50-06032025.jpg"
+                        alt="Slide 2">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p3-puma-performax-min50-06032025.jpg"
+                        alt="Slide 3">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p4-crocs-uspoloassn-min50-06032025.jpg"
+                        alt="Slide 4">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p5-brookbrothers-andamen-min30-06032025.jpg"
+                        alt="Slide 5">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p6-voyage-vincentchase-min60-06032025.jpg"
+                        alt="Slide 6">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-AASS-MHP-1.0-S6-topbannerbu-p7-yousta-under399-06032025.jpg"
+                        alt="Slide 7">
+                </div>
+            </div>
+
+            <!-- Previous & Next Buttons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- Carousel Container -->
+
+    <h1 class="text-center">OUR WORDROBE'S FINESET</h1>
+    <div class="carousel-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></button>
+            </div>
+
+            <!-- Carousel Items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1500">
+                    <img src="https://mercury.akamaized.net/i/8a0ebb14e824b6f76c0d248ca17e919e_318097_0.jpg"
+                        alt="Slide 1">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://mercury.akamaized.net/i/76be586d958df55dddae2657aacd1e44_318651_0.jpg"
+                        alt="Slide 2">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://mercury.akamaized.net/i/5aba11872b5ddfbe0ad45057f327c3d8_318814_0.jpg"
+                        alt="Slide 3">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="https://mercury.akamaized.net/i/b3bd19470722f1f17637acb44c9c2d39_317268_0.jpg"
+                        alt="Slide 4">
+                </div>
+
+            </div>
+
+            <!-- Previous & Next Buttons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+
+
+<!-- ////categiry -->
+
+    <div class="filter-buttons">
+        <div class="category-container">
+            <div class="category-card" onclick="filterProducts('all')">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmBW-4RxkWt8OUGj2qGd-GYnsUsKMS4sEGU-dzFqwr8y-cdsupEHPTqzlO8Vv9jwDu_w0&usqp=CAU"
+                    alt="All">
+                <button>All</button>
+            </div>
+            <div class="category-card" onclick="filterProducts('men')">
+                <img src="https://t3.ftcdn.net/jpg/06/11/89/42/360_F_611894278_6sIqAi9Akdrw9aNulK77WHPJJHJFWTV0.jpg"
+                    alt="Men">
+                <button>Men</button>
+            </div>
+            <div class="category-card" onclick="filterProducts('women')">
+                <img src="https://images.meesho.com/images/products/62485508/b0j7w_512.webp" alt="Women">
+                <button>Women</button>
+            </div>
+            <div class="category-card" onclick="filterProducts('kids')">
+                <img src="https://images.meesho.com/images/products/301748907/so8q6_512.webp" alt="Kids">
+                <button>Kids</button>
+            </div>
+
+
+
+
+
+            <!-- //jhjsdhfjshdjfkhsdkjfh -->
+
+
+
+        </div>
+
+    </div>
+    <div id="product-list" class="products"></div>
+    <div id="product-details" class="details hidden"></div>
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="footer1">
+            <div class="get">
+                <p>✉️ Get special discount on your inbox</p>
+                <div id="send">
+                    <pre>Your Email         </pre><button id="sb">SEND</button>
+                </div>
+            </div>
+            <div class="EX">
+                <P>📱 EXPERIENCE THE MYBAZAR MOBILE APP</P>
+                <img id="google" src="https://www.pw.live/_next/static/media/google-play-badge.171251c3.webp" alt="">
+                <img id="app" src="https://www.pw.live/_next/static/media/apple-store-badge.acb101ce.webp">
+            </div>
+            <div class="for">
+                <p>📞 FOR ANY HELP, YUO MAY CALL US AT
+                    <br> 1800-267-4444
+                </p>
+                <P>(Monday to Saturday, 8AM to 10PM and
+                    <br>Sunday, 10AM to 7PM)
+                </P>
+            </div>
+        </div>
+
+        <div class="footer4">
+            <div class="midea">
+                <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-instagram-filled.svg">
+                <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-facebook-filled.svg">
+                <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-youtube-filled.svg">
+                <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-twitter-filled.svg">
+                <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-pinterest-filled.svg">
+            </div>
+            <!-- <pre>Terms & Conditions     Shipping Policy     Cancellation Policy     Privacy Policy</pre> -->
+            <br>
+            <p>© 2025 Mybazar. All Rights Reserved</p>
+        </div>
+    </div>
+
+
+    <script type="module">
+        import { products } from './product.js';
+        window.filterProducts = filterProducts;
+        window.hideDetails = hideDetails;
+        const productList = document.getElementById("product-list");
+        const productDetails = document.getElementById("product-details");
+        const bodyChildren = Array.from(document.body.children).filter(el => el !== productDetails && el !== productList && !el.classList.contains("header") && !el.classList.contains("footer"));
+
+        // Function to display products dynamically
+        function displayProducts(filter = 'all') {
+            productList.innerHTML = "";
+            const filteredProducts = filter === 'all' ? products : products.filter(p => p.category === filter);
+            filteredProducts.forEach(product => {
+                let productCard = document.createElement("div");
+                productCard.classList.add("product-card");
+
+                productCard.innerHTML = `
+                    <img src="${product.image}" alt="${product.name}" class="product-image" data-id="${product.id}">
+                    <h3>${product.name}</h3>
+                    <h3 class="price">${product.price}</h3>
+                    <div class="ratediv">
+                        <p class="rate">${product.rating}⭐</p>
+                        <p class="review">${product.review}</p>
+                    </div>
+                `;
+
+                // Add click event to show details
+                productCard.addEventListener("click", () => showDetails(product));
+                productList.appendChild(productCard);
+            });
+        }
+
+        // Function to filter products
+        function filterProducts(category) {
+            hideDetails();
+            displayProducts(category);
+        }
+
+        // Function to show product details and hide others
+        function showDetails(product) {
+            productList.classList.add("hidden");
+            bodyChildren.forEach(el => el.style.display = "none");
+            productDetails.innerHTML = `
+                <section class="view-container">
+                    <div>
+                <button class="back" onclick="hideDetails()"> <span class="arrow">⟸ </span> Go Back</button>
+                </div>
+                    <section class="view-left">
+                        <div class="img-left">
+                            <img src=${product.img1} alt=${product.name}>
+                            <img src=${product.img2} alt=${product.name}>
+                            <img src=${product.img3} alt=${product.name}>
+                            <img src=${product.img4} alt=${product.name}>
+                            <img src=${product.image} alt=${product.name}>
+                        </div>
+                        <div class="img-right">
+                            <img class="main-image" src=${product.image} alt="">
+                            <div class="img-right-bottom">
+                                <button>Add to Cart</button>
+                                <button>Buy Now</button>
+                            </div>
+                            <h2>3 similar Products</h2>
+                            <div class="view-similar-product">
+                                <img src=${product.sim1} alt=${product.name}>
+                                <img src=${product.sim2} alt="${product.name}">
+                                <img src=${product.sim3} alt="${product.name}">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="view-right">
+                        <div class="about-product">
+                            <h1 style="color: rgb(134, 97, 2);">NYRIKA</h1>
+                            <h2>${product.name}</h2>
+                            <button>${product.rating}*</button><p>257 Ratings</p>
+                            <p>₹896</p>
+                            <p style="color: green; font-weight: bold;"><span style="color: black;">MRP</span> <del>₹2,799</del>(68% OFF)</p>
+                            <p>Price inclusive of all taxes</p>
+                        </div>
+                        <div class="size">
+                            <h3>SELECT SIZE</h3>
+                            <button>XS</button>
+                            <button>S</button>
+                            <button>M</button>
+                            <button>L</button>
+                            <button>XL</button>
+                            <button>XXL</button>
+                        </div>
+                        <h1>Product Details</h1>
+                        <ul>
+                            ${product.details.map(detail => `<li>${detail}</li>`).join("")}
+                        </ul>
+                    </section>
+                </section>
+            `;
+            productDetails.classList.remove("hidden");
+        }
+
+        // Function to hide details and show product list again
+        function hideDetails() {
+            productList.classList.remove("hidden");
+            productDetails.classList.add("hidden");
+            bodyChildren.forEach(el => el.style.display = "");
+        }
+
+        // Call the function to display all products initially
+        displayProducts();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
